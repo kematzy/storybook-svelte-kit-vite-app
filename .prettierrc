@@ -1,6 +1,14 @@
 {
-	"useTabs": true,
-	"singleQuote": true,
-	"trailingComma": "none",
-	"printWidth": 100
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "printWidth": 120,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "svelteAllowShorthand": true,
+  "svelteBracketNewLine": false,
+  "svelteSortOrder": "scripts-markup-styles",
+  "svelteStrictMode": false,
+  "useTabs": false,
 }
