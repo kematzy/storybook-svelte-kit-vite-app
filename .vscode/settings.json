@@ -1,0 +1,21 @@
+{
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "postcss.validate": false,
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.html": true
+  },
+  "stylelint.enable": true,
+  "stylelint.validate": [
+    "css",
+    "postcss"
+  ],
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "javascript.format.enable": false
+}
