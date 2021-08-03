@@ -10,11 +10,20 @@
     "dev": "concurrently \"npm run dev:only\" \"npm run tailwind:watch\"",
     "build": "npm run tailwind:build && npm run build:only",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --write --plugin-search-dir=. ."
+    "format": "prettier --write --plugin-search-dir=. .",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@storybook/addon-actions": "^6.3.6",
+    "@storybook/addon-essentials": "^6.3.6",
+    "@storybook/addon-links": "^6.3.6",
+    "@storybook/addon-svelte-csf": "^1.1.0",
+    "@storybook/svelte": "^6.3.6",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
     "concurrently": "^6.2.0",
     "cross-env": "^7.0.3",
     "eslint": "^7.22.0",
@@ -29,7 +38,8 @@
     "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-standard": "^22.0.0",
-    "svelte": "^3.34.0",
+    "svelte": "^3.41.0",
+    "svelte-loader": "^3.1.2",
     "tailwindcss": "^2.2.7"
   },
   "type": "module"
